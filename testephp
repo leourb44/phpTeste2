@@ -1,0 +1,18 @@
+<?php
+
+$nomeMinusculo = 'leonardo urbano do amaral';
+$nomeMaiusculo = 'LEONARDO URBANO DO AMARAL';
+
+//Torna Maiusculo
+echo strtoupper($nomeMinusculo) . PHP_EOL;
+echo strtolower($nomeMaiusculo) . PHP_EOL;
+
+$frase = 'AMARELO,VERDE,VERMELHO,PRETO,ROXO';
+$palavrasSeparadas = explode(',', $frase);
+print_r($palavrasSeparadas);
+
+$fraseSeparadaPorEspaco = implode(',', $palavrasSeparadas);
+echo $fraseSeparadaPorEspaco;
+
+$frase2 = 'eu estou reprovando em banco de dados';
+$fraseCorrigida = str_replace('reprovando', );
